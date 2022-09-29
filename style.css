@@ -1,0 +1,42 @@
+/*
+ Theme Name:   Generate Press Child
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Emmanuel Motsi
+ Author URI:   https://emmauelmotsi.com
+ Template:     generatepress
+ Version:      1.0.0
+*/
+
+
+/* links on green background behaviour */
+a.et-links-on-green {
+    color: #ffffff;
+}
+
+a.et-links-on-green:hover {
+    text-decoration: underline;
+}
+
+/* sticky header on desktop */
+nav#site-navigation {
+    position: sticky;
+    top: 0;
+}
+
+/* menu links hover and selected states */
+nav#site-navigation li a:hover {
+    color: #00B541;
+}
+
+/* nav#site-navigation li:active {
+    color: #00B541;
+} */
+
+/* footer colors */
+
+.inside-site-info {
+    background-color: #111111;
+    color: #ffffff;
+    display: none;
+}
